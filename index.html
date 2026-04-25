@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的跑酷练习</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">2D 小游戏练习项目</p>
+      <h1>我的跑酷练习</h1>
+      <p class="intro">这是一个仅使用浏览器原生技术的最小起点，后续可以在下方画布中继续接入跑酷玩法。</p>
+    </header>
+
+    <section class="game-shell" aria-labelledby="game-area-title">
+      <div class="game-shell__header">
+        <h2 id="game-area-title">游戏区域预留</h2>
+        <span class="game-shell__hint">960 x 360</span>
+      </div>
+      <canvas
+        id="game-canvas"
+        width="960"
+        height="360"
+        aria-label="跑酷游戏画布"
+      ></canvas>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

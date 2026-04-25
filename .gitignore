@@ -1,0 +1,20 @@
+.DS_Store
+
+# 防止误把 git 元数据目录 add 进来
+/.git/
+
+# VS Code：忽略本地杂项，但保留调试配置
+.vscode/*
+!.vscode/launch.json
+
+# 临时/日志
+*.log
+*.tmp
+*.swp
+*~
+
+# 常见构建产物（即便当前不用也无妨）
+dist/
+build/
+out/
+coverage/
