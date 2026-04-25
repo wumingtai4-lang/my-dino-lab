@@ -1,3 +1,5 @@
+console.log("[my-dino] 脚本已加载");
+
 const canvas = document.getElementById("game-canvas");
 
 if (canvas instanceof HTMLCanvasElement) {
